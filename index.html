@@ -1,70 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="menustyle.css" />
-</head>
-<body>
-    <div class="block">
-    <header class="menu__header">
+  </head>
+  <body>
+    <div class="menu">
+      <header class="menu__header">
         <div class="container menu__header-container">
-            <div class="menu__header-section-start">
-                <button class="menu__button--pink menu__button--close"></button>
-                <img class="menu__logo" src="image/logo.png" alt="">
-            </div>
+          <div class="menu__header-section-start">
+            <button class="menu__button--pink menu__button--close"></button>
+            <a class="menu__logo-link" href="#">
+              <img class="menu__logo" src="image/logo.png" alt="" />
+            </a>
+          </div>
 
-            <div class="menu__header-section-end">
-                <button class="menu__button--pink menu__button--serch"></button>
-            </div>
-        </div>   
-    </header>
+          <div class="menu__header-section-end">
+            <button class="menu__button--pink menu__button--serch"></button>
+          </div>
+        </div>
+      </header>
 
-    <main class="menu__main">
+      <main class="menu__main">
         <div class="menu__title-section">
-            <div class="title-section__left-decor-pseudo"></div>
-            <div class="container">
-                <h1 class="menu__title">Ремонт техники</h1>
-            </div>
+          <div class="title-section__left-decor-pseudo"></div>
+          <div class="container">
+            <h1 class="menu__title">Ремонт техники</h1>
+          </div>
         </div>
 
         <div class="container">
-        <nav class="menu__nav">
+          <nav class="menu__nav">
             <ul class="menu__row">
-                <li class="menu__item"><a href="#" class="menu__link">Услуги и сервисы</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Корпоративным клиентам</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Продавцам техники</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Партнерам</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Производителям</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Наши сервисные центры</a></li>
-                <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Услуги и сервисы</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Корпоративным клиентам</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Продавцам техники</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Партнерам</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Производителям</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Наши сервисные центры</a>
+              </li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Контакты</a>
+              </li>
             </ul>
-            
-        </nav>
+          </nav>
         </div>
-    </main>
+      </main>
 
-    <footer class="menu__footer">
-        <div class="container footer-buttons_container">
+      <footer class="menu__footer">
+        <div class="container">
+          <div class="footer-buttons_container">
             <button class="menu__button--pink menu__button--contacts"></button>
             <button class="menu__button--pink menu__button--support"></button>
             <button class="menu__button--pink menu__button--profile"></button>
-        </div>
+          </div>
 
-        <div class="container">
-            <p class="footer__mail">mail@cps.com</p>
-        </div>
-        <div class="container">
-            <p class="footer__phone">8 800 890 8900</p>
-        </div>
+          <p class="footer__mail">
+            <a href="#" class="footer__mail-link">mail@cps.com</a>
+          </p>
 
-        <div class="container footer-buttons_container--chnange-language">
-            <button class="button--chnange-language menu__button--ru">RU</button>
-            <button class="button--chnange-language menu__button--en">EN</button>
-            <button class="button--chnange-language menu__button--ch">CH</button>
+          <p class="footer__phone">
+            <a href="#" class="footer__phone-link">8 800 890 8900</a>
+          </p>
+
+          <div class="footer-buttons-container--chnange-language">
+            <button class="button--chnange-language menu__button--ru">
+              RU
+            </button>
+            <button class="button--chnange-language menu__button--en">
+              EN
+            </button>
+            <button class="button--chnange-language menu__button--ch">
+              CH
+            </button>
+          </div>
         </div>
-    </footer>
-</div>
-</body>
+      </footer>
+    </div>
+  </body>
 </html>
