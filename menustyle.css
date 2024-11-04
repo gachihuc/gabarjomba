@@ -97,11 +97,26 @@ h4 {
   margin-bottom: 20px;
 }
 
-.title-section__left-decor-pseudo {
+.menu__item--active {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #7e7e82;
+}
+
+.menu__item--active a {
+  color: #7e7e82;
+}
+
+.menu__item--active::before {
+  display: inline-block;
+  background-position: center;
+  content: "";
   width: 4px;
   height: 40px;
   background-color: #41f6d7;
   border-radius: 0% 100% 100% 0%;
+  margin-left: -24px;
 }
 
 .menu__title {
